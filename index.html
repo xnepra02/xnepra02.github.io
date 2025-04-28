@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petr Novák – Web Developer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img//man-user-circle-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <a href="index.html" class="home-link"><img class="logo" src="./img//man-user-circle-icon.png" alt=""></a>
+                <a href="index.html" class="home-link"><div class="name">Petr Novák</div></a>
+            </div>
+            <nav id="nav-desktop" class="nav-desktop">
+                <ul>
+                    <li><a href="#uvod">Úvod</a></li>
+                    <li><a href="#o-mne">O mně</a></li>
+                    <li><a href="#zkusenosti">Zkušenosti</a></li>
+                    <li><a href="#projekty">Projekty</a></li>
+                    <li><a href="#napiste">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="nav-toggle">☰</button>
+        </div>
+    </header>
+    <nav id="nav-mobile" class="nav-mobile">
+        <ul>
+            <li><a href="#uvod">Úvod</a></li>
+            <li><a href="#o-mne">O mně</a></li>
+            <li><a href="#zkusenosti">Zkušenosti</a></li>
+            <li><a href="#projekty">Projekty</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="uvod" class="section">
+            <div class="subsection">
+                <p>Jsem Petr Novák, začínající web developer se zaměřením na moderní frontend technologie.</p>
+                <a href="#o-mne">O mně</a>
+                <a href="#kontakt">Kontaktujte mně</a>
+            </div>
+        </div>
+
+        <div class="block-grey">
+            <div id="o-mne" class="section">
+                <div class="content3">
+                    <h2>O mně</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis. Aenean egestas volutpat luctus. Vestibulum a felis at sem ornare rhoncus. Fusce mollis augue nulla, quis euismod turpis elementum eu. Nam scelerisque tortor congue ligula pharetra.</p>
+                </div>
+                <div class="content3">
+                    <h2>Vzdělání</h2>
+                    <p>Střední škola informačních technologií, Praha. Absolvováno 2020.</p>
+                    <p>Fakulta informačních technologií ČVUT, bakalářské studium. Absolvováno 2023.</p>
+                </div>
+                <div class="content3">
+                    <h2>Dovednosti</h2>
+                    <p>HTML, CSS, JavaScript</p>
+                    <p>Responzivní design</p>
+                    <p>Základy React.js</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-white">
+            <h2>Zkušenosti</h2>
+            <div id="zkusenosti" class="section">
+                <div class="content2">
+                    <h3>2019-2020</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis.</p>
+                </div>
+                <div class="content2">
+                    <h3>2020-2021</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis.</p>
+                </div>
+                <div class="content2">
+                    <h3>2021-2022</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis.</p>
+                </div>
+                <div class="content2">
+                    <h3>2022-2023</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-grey">
+            <h2>Projekty</h2>
+            <h4>V této sekci jsou nejzajímavější projekty na kterých jsem pracoval.</h4>
+            <div id="projekty" class="section">
+                <div class="project">
+                    <img src="./img//project1.png" alt="Projekt 1" class="project-img">
+                </div>
+                    <h4>Vytvoření osobní portfolio stránky pro prezentaci projektů.</h4>
+                <div class="project">
+                    <img src="./img//project2.png" alt="Projekt 2" class="project-img">
+                </div>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non felis turpis. Aenean egestas volutpat luctus. Vestibulum a felis at sem ornare rhoncus.</h4>
+            </div>
+        </div>
+
+        <div class="block-white">
+            <h2>Napište mi</h2>
+            <h4>Neváhejte mě kontaktovat ohledně jakéhokoliv projektu.</h4>
+            <div id="napiste" class="section">
+                <form class="contactForm">
+                    <label for="name">Jméno</label>
+                    <input type="text" id="name" name="Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="Email" required>
+                    
+                    <label for="message">Zpráva</label>
+                    <textarea class="form-textBox" id="message" required></textarea>
+                
+                    <input type="submit" value="Odeslat">
+                </form>
+            </div>
+        </div>
+
+        <div class="block-grey">
+            <h2>Kontakt</h2>
+            <div id="kontakt" class="section">
+                <div class="content3">
+                    <h4>petr.novak@email.cz</h4>
+                </div>
+                <div class="content3">
+                    <h4>893165301</h4>
+                </div>
+                <div class="content3">
+                    <h4>www.linkedin.com/in/novak</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Petr Novák</p>
+    </footer>
+<script src="./js/scripts.js"></script>
+</body>
+</html>
